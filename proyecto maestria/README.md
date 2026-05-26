@@ -1,42 +1,89 @@
-# ExcelQuest - El Dominio de la Hoja de Cálculo
+# Ecosistema de Aprendizaje de Excel con Inteligencia Artificial
 
-ExcelQuest es una aventura interactiva (estilo RPG) y gamificada diseñada para enseñar Microsoft Excel desde cero. Está orientada a estudiantes que deseen dominar esta herramienta completando "Misiones" en un "Reino Digital", combinando retos teóricos, cuestionarios y **prácticas directas en un simulador de Excel integrado**.
+![Banner](https://via.placeholder.com/1200x400/050b14/00f2fe?text=Ecosistema+de+Aprendizaje+de+Excel+con+IA)
 
-## ⚔️ Características Épicas
-- **Diseño Dark Mode RPG:** Interfaz oscura con acentos dorados (`#d4af37`), fuentes épicas (Cinzel) y mapas de ruta verticales para los niveles.
-- **Simulador de Excel:** Zona de práctica interactiva que incluye Cinta de opciones, Barra de fórmulas y una cuadrícula (grid) donde los estudiantes deben hacer clic en celdas reales.
-- **Sistema de Misiones:** 10 Reinos (niveles) desbloqueables. Cada nivel contiene múltiples retos progresivos para ganar XP.
-- **Persistencia Mágica:** El progreso del héroe se guarda localmente en su navegador usando \`localStorage\`.
-- **Vanilla Puro:** Cero dependencias o frameworks externos. Construido exclusivamente con HTML5, CSS3 y JavaScript moderno.
+> **Proyecto de Investigación e Innovación Educativa**
+> Maestría en Docencia, Tecnología y Sociedad Global.
 
-## 🗺️ Estructura del Reino
-- \`index.html\`: Mapa de los Reinos y contenedores de Misiones (Teoría y Práctica con Simulador).
-- \`styles.css\`: Temática oscura, animaciones CSS fluidas y diseño responsivo para móviles y escritorio.
-- \`script.js\`: El "Dungeon Master" (lógica). Controla los retos, la inyección del mapa, interacción del simulador y XP.
-- \`assets/\`: Bóveda para futuras imágenes o recursos gráficos estáticos.
+El **Ecosistema de Aprendizaje de Excel con IA** es una plataforma educativa de vanguardia diseñada para transformar la manera en que los estudiantes universitarios adquieren competencias en Microsoft Excel. El proyecto utiliza la Inteligencia Artificial (especialmente Tutores Inteligentes y arquitecturas RAG/LLM) para cerrar la brecha digital y promover la autonomía educativa.
 
-## 📜 Las 10 Misiones (Reinos)
-1. El Tablero de Juego (Conceptos básicos espaciales)
-2. Conociendo las Herramientas (Navegación de UI)
-3. Tipos de Datos (Alineación)
-4. Calculadora Básica (Matemáticas con \`=\`)
-5. Funciones Esenciales (\`SUMA\`, \`MAX\`)
-6. Contando Datos (\`CONTAR\`, \`CONTARA\`)
-7. Funciones Lógicas (\`SI\`)
-8. Manipulación de Textos (\`CONCATENAR\`)
-9. Viaje en el Tiempo (\`HOY\`, \`AHORA\`)
-10. Atajos de Maestro (Shortcuts del teclado)
+## 🚀 Características Principales
 
-## 🔮 Cómo Jugar Localmente
-1. Clona o descarga este repositorio.
-2. Navega a la carpeta principal del proyecto.
-3. Haz doble clic en el archivo \`index.html\` para abrirlo en tu navegador.
-4. Presiona "Iniciar Aventura" y conquista los Reinos.
+*   **Diseño Futurista Premium:** Interfaz de usuario inspirada en dashboards tecnológicos (estilo MIT / OpenAI) con efectos de glassmorphism y paleta de colores inmersiva.
+*   **Tutor IA Integrado (Demo):** Un chatbot interactivo que simula respuestas pedagógicas para guiar al estudiante paso a paso sin darle directamente la solución.
+*   **Analítica de Aprendizaje (Learning Analytics):** Representaciones visuales simuladas del progreso estudiantil y reducción de errores comunes.
+*   **Responsive Design:** Experiencia fluida tanto en dispositivos móviles como en monitores ultrawide.
+*   **Interactividad:** Animaciones al hacer scroll (Intersection Observer), contadores numéricos y efectos de tipografía (Typing Effect).
 
-## 🏰 Despliegue en GitHub Pages
-Para que otros héroes puedan jugar en línea:
-1. Crea un repositorio en [GitHub](https://github.com/).
-2. Sube los archivos a la rama \`main\`.
-3. Ve a **Settings** > **Pages**.
-4. En *Source*, selecciona la rama \`main\` y dale a **Save**.
-5. ¡Tu aventura estará viva en internet!
+## 🛠️ Tecnologías Utilizadas
+
+Este proyecto fue construido utilizando tecnologías web estándar, sin dependencias pesadas, para asegurar un rendimiento excepcional:
+
+*   **HTML5 Semántico**
+*   **CSS3 Vanilla** (Variables, Grid, Flexbox, Keyframes, Glassmorphism)
+*   **JavaScript Moderno (ES6+)**
+*   **FontAwesome** (Iconografía)
+*   **Google Fonts** (Inter & Outfit)
+
+## 📁 Estructura del Proyecto
+
+```text
+proyecto-maestria/
+├── index.html       # Estructura principal y contenido
+├── styles.css       # Estilos, variables y animaciones
+├── script.js        # Lógica de interacciones y chatbot
+├── README.md        # Documentación del proyecto
+├── assets/          # (Directorio preparado para multimedia adicional)
+├── images/          # (Directorio preparado para imágenes)
+└── icons/           # (Directorio preparado para iconos locales)
+```
+
+## 💻 Instalación y Uso Local
+
+Para correr el proyecto localmente, no se requiere instalación de paquetes de Node.js.
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/tu-usuario/ecosistema-excel-ia.git
+   ```
+2. **Navegar al directorio:**
+   ```bash
+   cd ecosistema-excel-ia
+   ```
+3. **Abrir en el navegador:**
+   Puedes abrir `index.html` directamente en tu navegador web (Chrome, Firefox, Edge, Safari). Alternativamente, puedes usar extensiones como "Live Server" en Visual Studio Code para una experiencia de desarrollo fluida.
+
+## 🌐 Despliegue (Deploy)
+
+El proyecto está diseñado para ser desplegado fácilmente como un sitio estático.
+
+### Despliegue en GitHub Pages
+
+1. Sube tu código a un repositorio público en GitHub.
+2. Ve a los **Settings** (Configuración) de tu repositorio.
+3. En la barra lateral izquierda, haz clic en **Pages**.
+4. En **Source**, selecciona `Deploy from a branch`.
+5. En **Branch**, selecciona `main` o `master` y la carpeta `/ (root)`.
+6. Guarda. En unos minutos, tu sitio estará en vivo.
+
+### Despliegue en Netlify
+
+1. Inicia sesión en [Netlify](https://www.netlify.com/).
+2. Haz clic en **Add new site** > **Import an existing project**.
+3. Conecta tu cuenta de GitHub y selecciona el repositorio.
+4. Netlify detectará que es un sitio estático. Deja los comandos de build vacíos y el directorio base como está.
+5. Haz clic en **Deploy site**.
+
+## 🎓 Objetivos Académicos
+
+*   **Reducir la Brecha Tecnológica:** Disminuir en un 30% la deficiencia en habilidades de Excel de los estudiantes universitarios.
+*   **Personalización:** Implementar rutas de aprendizaje adaptativas.
+*   **Innovación:** Proveer retroalimentación en tiempo real (24/7) a través de IA.
+*   **Ética y Transparencia:** Mantener un ecosistema seguro, mitigando sesgos y asegurando la privacidad de los datos estudiantiles.
+
+## 🤝 Autores
+
+*   **Tu Nombre / Equipo** - *Maestría en Docencia, Tecnología y Sociedad Global*
+
+---
+*Este proyecto es de carácter académico.*
