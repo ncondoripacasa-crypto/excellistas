@@ -583,5 +583,20 @@
   <footer>
     <p>Pagina creada a partir de la evaluacion de archivos de la carpeta Excel intermedio. Abre el archivo de evaluacion para ver el inventario completo y las recomendaciones detalladas.</p>
   </footer>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@n8n/chat/style.css">
+<script type="module">
+  import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/index.js';
+
+  createChat({
+    webhookUrl: 'https://ncondori.app.n8n.cloud/webhook/20c27afb-73c6-41a0-be85-c81a66decbd4/chat',
+    showWelcomeScreen: true,
+    initialMessages: [
+      '¡Hola! Soy tu asistente inteligente. ¿En qué puedo ayudarte hoy?'
+    ],
+    title: 'Mi Asistente IA',
+    subtitle: 'Pregúntame lo que quieras',
+  });
+</script>
 </body>
 </html>
