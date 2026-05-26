@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Chatbot n8n</title>
+    <!-- Chatbot n8n CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@n8n/chat/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Prueba de Integración del Chatbot</h1>
+        <p>El asistente inteligente de n8n debería aparecer en la esquina inferior derecha.</p>
+        <p>Si no aparece, presiona F12 y revisa la consola del navegador para ver si hay errores.</p>
+    </div>
+
+    <!-- Chatbot n8n Integration -->
+    <script type="module">
+      import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/index.js';
+
+      createChat({
+        webhookUrl: 'https://ncondori.app.n8n.cloud/webhook/20c27afb-73c6-41a0-be85-c81a66decbd4/chat',
+        showWelcomeScreen: true,
+        initialMessages: [
+          '¡Hola! Soy tu asistente inteligente. ¿En qué puedo ayudarte hoy?'
+        ],
+        title: 'Mi Asistente IA',
+        subtitle: 'Pregúntame lo que quieras',
+      });
+    </script>
+</body>
+</html>
