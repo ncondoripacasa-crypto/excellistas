@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prueba de Chatbot n8n</title>
     <!-- Chatbot n8n CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@n8n/chat/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -34,7 +34,7 @@
 
     <!-- Chatbot n8n Integration -->
     <script type="module">
-      import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/index.js';
+      import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
 
       createChat({
         webhookUrl: 'https://ncondori.app.n8n.cloud/webhook/20c27afb-73c6-41a0-be85-c81a66decbd4/chat',
